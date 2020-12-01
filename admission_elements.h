@@ -1,6 +1,5 @@
 #ifndef GAOKAO_ADMISSION_EMULATOR_ADMISSION_ELEMENTS_H
 #define GAOKAO_ADMISSION_EMULATOR_ADMISSION_ELEMENTS_H
-#endif
 
 #include <stdio.h>
 #include <string.h>
@@ -41,3 +40,8 @@ typedef struct school_elements
 
 extern int import_student_info(FILE *, int *, STU *);
 extern int import_school_info(FILE *, int *, SCH *);
+extern void merge_array(STU *, int, int, int);
+extern void merge_sort(STU *, int, int);
+
+
+#endif
