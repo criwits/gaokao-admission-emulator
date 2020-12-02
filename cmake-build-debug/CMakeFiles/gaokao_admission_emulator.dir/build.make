@@ -89,34 +89,64 @@ CMakeFiles/gaokao_admission_emulator.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/gaokao_admission_emulator.dir/main.c.s"
 	"D:\Program Files\CodeBlocks\MinGW\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\GitHub\gaokao-admission-emulator\main.c -o CMakeFiles\gaokao_admission_emulator.dir\main.c.s
 
-CMakeFiles/gaokao_admission_emulator.dir/admission_functions.c.obj: CMakeFiles/gaokao_admission_emulator.dir/flags.make
-CMakeFiles/gaokao_admission_emulator.dir/admission_functions.c.obj: ../admission_functions.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\GitHub\gaokao-admission-emulator\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/gaokao_admission_emulator.dir/admission_functions.c.obj"
-	"D:\Program Files\CodeBlocks\MinGW\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\gaokao_admission_emulator.dir\admission_functions.c.obj   -c D:\GitHub\gaokao-admission-emulator\admission_functions.c
+CMakeFiles/gaokao_admission_emulator.dir/file_operations.c.obj: CMakeFiles/gaokao_admission_emulator.dir/flags.make
+CMakeFiles/gaokao_admission_emulator.dir/file_operations.c.obj: ../file_operations.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\GitHub\gaokao-admission-emulator\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/gaokao_admission_emulator.dir/file_operations.c.obj"
+	"D:\Program Files\CodeBlocks\MinGW\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\gaokao_admission_emulator.dir\file_operations.c.obj   -c D:\GitHub\gaokao-admission-emulator\file_operations.c
 
-CMakeFiles/gaokao_admission_emulator.dir/admission_functions.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/gaokao_admission_emulator.dir/admission_functions.c.i"
-	"D:\Program Files\CodeBlocks\MinGW\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\GitHub\gaokao-admission-emulator\admission_functions.c > CMakeFiles\gaokao_admission_emulator.dir\admission_functions.c.i
+CMakeFiles/gaokao_admission_emulator.dir/file_operations.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/gaokao_admission_emulator.dir/file_operations.c.i"
+	"D:\Program Files\CodeBlocks\MinGW\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\GitHub\gaokao-admission-emulator\file_operations.c > CMakeFiles\gaokao_admission_emulator.dir\file_operations.c.i
 
-CMakeFiles/gaokao_admission_emulator.dir/admission_functions.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/gaokao_admission_emulator.dir/admission_functions.c.s"
-	"D:\Program Files\CodeBlocks\MinGW\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\GitHub\gaokao-admission-emulator\admission_functions.c -o CMakeFiles\gaokao_admission_emulator.dir\admission_functions.c.s
+CMakeFiles/gaokao_admission_emulator.dir/file_operations.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/gaokao_admission_emulator.dir/file_operations.c.s"
+	"D:\Program Files\CodeBlocks\MinGW\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\GitHub\gaokao-admission-emulator\file_operations.c -o CMakeFiles\gaokao_admission_emulator.dir\file_operations.c.s
+
+CMakeFiles/gaokao_admission_emulator.dir/merge_sort.c.obj: CMakeFiles/gaokao_admission_emulator.dir/flags.make
+CMakeFiles/gaokao_admission_emulator.dir/merge_sort.c.obj: ../merge_sort.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\GitHub\gaokao-admission-emulator\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/gaokao_admission_emulator.dir/merge_sort.c.obj"
+	"D:\Program Files\CodeBlocks\MinGW\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\gaokao_admission_emulator.dir\merge_sort.c.obj   -c D:\GitHub\gaokao-admission-emulator\merge_sort.c
+
+CMakeFiles/gaokao_admission_emulator.dir/merge_sort.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/gaokao_admission_emulator.dir/merge_sort.c.i"
+	"D:\Program Files\CodeBlocks\MinGW\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\GitHub\gaokao-admission-emulator\merge_sort.c > CMakeFiles\gaokao_admission_emulator.dir\merge_sort.c.i
+
+CMakeFiles/gaokao_admission_emulator.dir/merge_sort.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/gaokao_admission_emulator.dir/merge_sort.c.s"
+	"D:\Program Files\CodeBlocks\MinGW\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\GitHub\gaokao-admission-emulator\merge_sort.c -o CMakeFiles\gaokao_admission_emulator.dir\merge_sort.c.s
+
+CMakeFiles/gaokao_admission_emulator.dir/admission_operations.c.obj: CMakeFiles/gaokao_admission_emulator.dir/flags.make
+CMakeFiles/gaokao_admission_emulator.dir/admission_operations.c.obj: ../admission_operations.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\GitHub\gaokao-admission-emulator\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/gaokao_admission_emulator.dir/admission_operations.c.obj"
+	"D:\Program Files\CodeBlocks\MinGW\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\gaokao_admission_emulator.dir\admission_operations.c.obj   -c D:\GitHub\gaokao-admission-emulator\admission_operations.c
+
+CMakeFiles/gaokao_admission_emulator.dir/admission_operations.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/gaokao_admission_emulator.dir/admission_operations.c.i"
+	"D:\Program Files\CodeBlocks\MinGW\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\GitHub\gaokao-admission-emulator\admission_operations.c > CMakeFiles\gaokao_admission_emulator.dir\admission_operations.c.i
+
+CMakeFiles/gaokao_admission_emulator.dir/admission_operations.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/gaokao_admission_emulator.dir/admission_operations.c.s"
+	"D:\Program Files\CodeBlocks\MinGW\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\GitHub\gaokao-admission-emulator\admission_operations.c -o CMakeFiles\gaokao_admission_emulator.dir\admission_operations.c.s
 
 # Object files for target gaokao_admission_emulator
 gaokao_admission_emulator_OBJECTS = \
 "CMakeFiles/gaokao_admission_emulator.dir/main.c.obj" \
-"CMakeFiles/gaokao_admission_emulator.dir/admission_functions.c.obj"
+"CMakeFiles/gaokao_admission_emulator.dir/file_operations.c.obj" \
+"CMakeFiles/gaokao_admission_emulator.dir/merge_sort.c.obj" \
+"CMakeFiles/gaokao_admission_emulator.dir/admission_operations.c.obj"
 
 # External object files for target gaokao_admission_emulator
 gaokao_admission_emulator_EXTERNAL_OBJECTS =
 
 gaokao_admission_emulator.exe: CMakeFiles/gaokao_admission_emulator.dir/main.c.obj
-gaokao_admission_emulator.exe: CMakeFiles/gaokao_admission_emulator.dir/admission_functions.c.obj
+gaokao_admission_emulator.exe: CMakeFiles/gaokao_admission_emulator.dir/file_operations.c.obj
+gaokao_admission_emulator.exe: CMakeFiles/gaokao_admission_emulator.dir/merge_sort.c.obj
+gaokao_admission_emulator.exe: CMakeFiles/gaokao_admission_emulator.dir/admission_operations.c.obj
 gaokao_admission_emulator.exe: CMakeFiles/gaokao_admission_emulator.dir/build.make
 gaokao_admission_emulator.exe: CMakeFiles/gaokao_admission_emulator.dir/linklibs.rsp
 gaokao_admission_emulator.exe: CMakeFiles/gaokao_admission_emulator.dir/objects1.rsp
 gaokao_admission_emulator.exe: CMakeFiles/gaokao_admission_emulator.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\GitHub\gaokao-admission-emulator\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable gaokao_admission_emulator.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\GitHub\gaokao-admission-emulator\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C executable gaokao_admission_emulator.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\gaokao_admission_emulator.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

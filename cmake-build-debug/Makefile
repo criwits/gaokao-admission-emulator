@@ -142,32 +142,59 @@ gaokao_admission_emulator/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\gaokao_admission_emulator.dir\build.make CMakeFiles/gaokao_admission_emulator.dir/build
 .PHONY : gaokao_admission_emulator/fast
 
-admission_functions.obj: admission_functions.c.obj
+admission_operations.obj: admission_operations.c.obj
 
-.PHONY : admission_functions.obj
+.PHONY : admission_operations.obj
 
 # target to build an object file
-admission_functions.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\gaokao_admission_emulator.dir\build.make CMakeFiles/gaokao_admission_emulator.dir/admission_functions.c.obj
-.PHONY : admission_functions.c.obj
+admission_operations.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gaokao_admission_emulator.dir\build.make CMakeFiles/gaokao_admission_emulator.dir/admission_operations.c.obj
+.PHONY : admission_operations.c.obj
 
-admission_functions.i: admission_functions.c.i
+admission_operations.i: admission_operations.c.i
 
-.PHONY : admission_functions.i
+.PHONY : admission_operations.i
 
 # target to preprocess a source file
-admission_functions.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\gaokao_admission_emulator.dir\build.make CMakeFiles/gaokao_admission_emulator.dir/admission_functions.c.i
-.PHONY : admission_functions.c.i
+admission_operations.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gaokao_admission_emulator.dir\build.make CMakeFiles/gaokao_admission_emulator.dir/admission_operations.c.i
+.PHONY : admission_operations.c.i
 
-admission_functions.s: admission_functions.c.s
+admission_operations.s: admission_operations.c.s
 
-.PHONY : admission_functions.s
+.PHONY : admission_operations.s
 
 # target to generate assembly for a file
-admission_functions.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\gaokao_admission_emulator.dir\build.make CMakeFiles/gaokao_admission_emulator.dir/admission_functions.c.s
-.PHONY : admission_functions.c.s
+admission_operations.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gaokao_admission_emulator.dir\build.make CMakeFiles/gaokao_admission_emulator.dir/admission_operations.c.s
+.PHONY : admission_operations.c.s
+
+file_operations.obj: file_operations.c.obj
+
+.PHONY : file_operations.obj
+
+# target to build an object file
+file_operations.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gaokao_admission_emulator.dir\build.make CMakeFiles/gaokao_admission_emulator.dir/file_operations.c.obj
+.PHONY : file_operations.c.obj
+
+file_operations.i: file_operations.c.i
+
+.PHONY : file_operations.i
+
+# target to preprocess a source file
+file_operations.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gaokao_admission_emulator.dir\build.make CMakeFiles/gaokao_admission_emulator.dir/file_operations.c.i
+.PHONY : file_operations.c.i
+
+file_operations.s: file_operations.c.s
+
+.PHONY : file_operations.s
+
+# target to generate assembly for a file
+file_operations.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gaokao_admission_emulator.dir\build.make CMakeFiles/gaokao_admission_emulator.dir/file_operations.c.s
+.PHONY : file_operations.c.s
 
 main.obj: main.c.obj
 
@@ -196,6 +223,33 @@ main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\gaokao_admission_emulator.dir\build.make CMakeFiles/gaokao_admission_emulator.dir/main.c.s
 .PHONY : main.c.s
 
+merge_sort.obj: merge_sort.c.obj
+
+.PHONY : merge_sort.obj
+
+# target to build an object file
+merge_sort.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gaokao_admission_emulator.dir\build.make CMakeFiles/gaokao_admission_emulator.dir/merge_sort.c.obj
+.PHONY : merge_sort.c.obj
+
+merge_sort.i: merge_sort.c.i
+
+.PHONY : merge_sort.i
+
+# target to preprocess a source file
+merge_sort.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gaokao_admission_emulator.dir\build.make CMakeFiles/gaokao_admission_emulator.dir/merge_sort.c.i
+.PHONY : merge_sort.c.i
+
+merge_sort.s: merge_sort.c.s
+
+.PHONY : merge_sort.s
+
+# target to generate assembly for a file
+merge_sort.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\gaokao_admission_emulator.dir\build.make CMakeFiles/gaokao_admission_emulator.dir/merge_sort.c.s
+.PHONY : merge_sort.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -205,12 +259,18 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... gaokao_admission_emulator
-	@echo ... admission_functions.obj
-	@echo ... admission_functions.i
-	@echo ... admission_functions.s
+	@echo ... admission_operations.obj
+	@echo ... admission_operations.i
+	@echo ... admission_operations.s
+	@echo ... file_operations.obj
+	@echo ... file_operations.i
+	@echo ... file_operations.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... merge_sort.obj
+	@echo ... merge_sort.i
+	@echo ... merge_sort.s
 .PHONY : help
 
 

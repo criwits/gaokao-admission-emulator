@@ -13,6 +13,14 @@
 #define MAX_STU_NAME 25
 #define MAX_SCH_NAME 25
 
+typedef enum status
+{
+    ERROR,
+    ADMITTED,
+    FAILED,
+    RETURNED
+} admission_status;
+
 typedef struct student_wishes
 {
     int wish_enabled;
@@ -38,10 +46,20 @@ typedef struct school_elements
 
 } SCH;
 
+typedef struct student_admission_status
+{
+    admission_status admission_status;
+    int student_id;
+    char student_name[MAX_STU_NAME];
+    int school_id;
+    char school_name[MAX_SCH_NAME];
+    int subject_id;
+} STATUS;
+
 extern int import_student_info(FILE *, int *, STU *);
 extern int import_school_info(FILE *, int *, SCH *);
 extern void merge_array(STU *, int, int, int);
 extern void merge_sort(STU *, int, int);
-
+extern admission_status emulate_admission(STU, SCH *, int, STATUS *);
 
 #endif

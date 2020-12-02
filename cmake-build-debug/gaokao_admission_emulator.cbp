@@ -74,13 +74,19 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/GitHub/gaokao-admission-emulator/admission_functions.c">
+		<Unit filename="D:/GitHub/gaokao-admission-emulator/admission_elements.h">
 			<Option target="gaokao_admission_emulator"/>
 		</Unit>
-		<Unit filename="D:/GitHub/gaokao-admission-emulator/cmake-build-debug/admission_elements.h">
+		<Unit filename="D:/GitHub/gaokao-admission-emulator/admission_operations.c">
+			<Option target="gaokao_admission_emulator"/>
+		</Unit>
+		<Unit filename="D:/GitHub/gaokao-admission-emulator/file_operations.c">
 			<Option target="gaokao_admission_emulator"/>
 		</Unit>
 		<Unit filename="D:/GitHub/gaokao-admission-emulator/main.c">
+			<Option target="gaokao_admission_emulator"/>
+		</Unit>
+		<Unit filename="D:/GitHub/gaokao-admission-emulator/merge_sort.c">
 			<Option target="gaokao_admission_emulator"/>
 		</Unit>
 		<Unit filename="D:/GitHub/gaokao-admission-emulator/CMakeLists.txt">

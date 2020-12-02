@@ -10,7 +10,8 @@ int main(void)
     FILE *school_file;
     char student_filename[MAX_FILENAME];
     char school_filename[MAX_FILENAME];
-
+    STATUS all_student_results[MAX_STU_NUMBER];
+    memset(all_student_results, 0, sizeof(all_student_results));
     memset(all_student_list, 0, sizeof(all_student_list));
     memset(all_school_list, 0, sizeof(all_school_list));
 
@@ -76,5 +77,46 @@ int main(void)
             j++;
         }
     }
+
+    for (int i = 0; i < student_number; i++)
+    {
+        printf("Processing student with ID %d...", all_student_list[i].stu_id);
+        printf("Result: %d.\n", emulate_admission(all_student_list[i], all_school_list, school_number, &all_student_results[i]));
+    }
+
+    FILE *result_file;
+    char result_filename[MAX_FILENAME];
+    printf("Enter the name of file you want to save the result: "); scanf("%s", result_filename);
+
+    if ((result_file = fopen(result_filename, "w")) == NULL)
+    {
+        printf("E: Error(s) occurred while opening this file.\n");
+        return 0;
+    }
+
+    fprintf(result_file, "Name,ID,Score,Status,School(ID),School(Name),Subject(ID)\n");
+    for (int i = 0; i < student_number; i++)
+    {
+        fprintf(result_file, "%s,%d,%d,", all_student_results[i].student_name, all_student_results[i].student_id, all_student_list[i].stu_score);
+        switch (all_student_results[i].admission_status)
+        {
+            case ERROR:
+                fprintf(result_file, "Error\n");
+                break;
+            case ADMITTED:
+                fprintf(result_file, "Admitted,%d,%s,%d\n", all_student_results[i].school_id, all_student_results[i].school_name,all_student_results[i].subject_id);
+                break;
+            case RETURNED:
+                fprintf(result_file, "Rejected\n");
+                break;
+            case FAILED:
+                fprintf(result_file, "Failed\n");
+                break;
+        }
+    }
+
+    fclose(student_file);
+    fclose(school_file);
+    fclose(result_file);
     return 0;
 }
