@@ -101,16 +101,16 @@ int main(void)
         switch (all_student_results[i].admission_status)
         {
             case ERROR:
-                fprintf(result_file, "Error\n");
+                fprintf(result_file, "Error,,,\n");
                 break;
             case ADMITTED:
                 fprintf(result_file, "Admitted,%d,%s,%d\n", all_student_results[i].school_id, all_student_results[i].school_name,all_student_results[i].subject_id);
                 break;
             case RETURNED:
-                fprintf(result_file, "Rejected\n");
+                fprintf(result_file, "Rejected,,,\n");
                 break;
             case FAILED:
-                fprintf(result_file, "Failed\n");
+                fprintf(result_file, "Failed,,,\n");
                 break;
         }
     }
