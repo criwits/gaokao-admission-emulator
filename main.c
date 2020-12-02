@@ -80,7 +80,7 @@ int main(void)
 
     for (int i = 0; i < student_number; i++)
     {
-        printf("Processing student with ID %d...", all_student_list[i].stu_id);
+        printf("Processing student with ID %d...\n", all_student_list[i].stu_id);
         printf("Result: %d.\n", emulate_admission(all_student_list[i], all_school_list, school_number, &all_student_results[i]));
     }
 
